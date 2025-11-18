@@ -1,0 +1,61 @@
+/*fondo*/
+body {
+    background-color: white;
+    text-align: center;
+}
+/*fondo de los bloques*/
+.contenedor {
+    background-color: bisque;
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+}
+.contenido {
+    width: 700px;
+}
+
+/* Cabecera amarilla */
+.cabecera {
+    background-color: gold;
+    height: 100px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+
+/* Columna izquierda (rosada) */
+.izquierda {
+    background-color: deeppink;
+    display: inline-block;
+    vertical-align: top;
+    width: 510px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Columna derecha (celeste) */
+.derecha {
+    background-color: skyblue;
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 230px;
+    margin-left: 10px;
+}
+
+/* Bloques azules */
+.bloque-azul {
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Bloque verde */
+.bloque-verde {
+    background-color: limegreen;
+    width: 100%;
+    height: 70px;
+}
